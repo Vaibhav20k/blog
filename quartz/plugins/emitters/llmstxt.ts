@@ -103,7 +103,6 @@ export const LlmsTxt: QuartzEmitterPlugin = () => {
       lines.push("")
       lines.push(`Author: ${siteAuthor.name}`)
       lines.push(`Author profile: ${siteAuthor.url}`)
-      lines.push(`Author full reference: https://saksham.digital/llms.txt`)
       lines.push(`Blog home: ${base}/`)
       lines.push(`RSS: ${base}/index.xml`)
       lines.push(`Sitemap: ${base}/sitemap.xml`)
@@ -137,7 +136,7 @@ export const LlmsTxt: QuartzEmitterPlugin = () => {
       lines.push(`## About the author`)
       lines.push("")
       lines.push(
-        `${sitePublication.name} is written and maintained by ${siteAuthor.name}. ${siteAuthor.description} The complete, authoritative profile — projects, skills, achievements — lives at https://saksham.digital/llms.txt and https://saksham.digital/profile.json.`,
+        `${sitePublication.name} is written and maintained by ${siteAuthor.name}. ${siteAuthor.description}`,
       )
       lines.push("")
       for (const profile of siteAuthor.sameAs) {

@@ -30,7 +30,7 @@ export const RobotsTxt: QuartzEmitterPlugin = () => {
         "# All of it is public. Search engines, AI search and AI training crawlers are all welcome.",
         "#",
         `# Index of every post (llms.txt format): ${base}/llms.txt`,
-        `# Author reference:                      https://saksham.digital/llms.txt`,
+        `# Author reference:                      ${siteAuthor.url}`,
         "",
         "User-agent: *",
         "Allow: /",

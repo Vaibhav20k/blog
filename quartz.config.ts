@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Saksham Arora — Chimera",
+    pageTitle: "Vaibhav Kandpal — Data Science & AI",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "blog.saksham.digital",
+    baseUrl: "blog.vaibhavos.indevs.in",
     ignorePatterns: [
       "private",
       "templates",
@@ -48,10 +48,10 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a98c",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          secondary: "#FF6B35",
+          tertiary: "#FF8555",
+          highlight: "rgba(255, 107, 53, 0.12)",
+          textHighlight: "#FF6B3533",
         },
         darkMode: {
           light: "#09090b",
@@ -59,10 +59,10 @@ const config: QuartzConfig = {
           gray: "#52525b",
           darkgray: "#d4d4d8",
           dark: "#fafafa",
-          secondary: "#8b7fd4",
-          tertiary: "#a89ee0",
-          highlight: "rgba(139, 127, 212, 0.08)",
-          textHighlight: "#8b7fd420",
+          secondary: "#FF6B35",
+          tertiary: "#FF8555",
+          highlight: "rgba(255, 107, 53, 0.12)",
+          textHighlight: "#FF6B3533",
         },
       },
     },

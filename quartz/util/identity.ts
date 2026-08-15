@@ -31,20 +31,19 @@ export interface SiteAuthor {
 }
 
 export const siteAuthor: SiteAuthor = {
-  name: "Saksham Arora",
-  alternateName: "sksm",
-  url: "https://saksham.digital",
-  id: "https://saksham.digital/#person",
-  jobTitle: "Data Scientist & Quant Researcher",
+  name: "Vaibhav Kandpal",
+  alternateName: "vk",
+  url: "https://blog.vaibhavos.indevs.in",
+  id: "https://blog.vaibhavos.indevs.in/#person",
+  jobTitle: "Data Scientist & AI Engineer",
   description:
-    "Data scientist and quant researcher from India. Builds ML pipelines, quantitative trading models, and data-driven systems. IMC Prosperity 4 top ~0.8% globally. Also has a systems engineering background in low-latency C++.",
-  image: "https://saksham.digital/saksham.jpg",
-  twitterHandle: "nerfsaksham",
+    "Data Science, Machine Learning, Deep Learning, and AI Engineer. Builds real-time data pipelines, RAG systems, and ML-powered applications.",
+  image: "https://blog.vaibhavos.indevs.in/static/icon.png",
+  twitterHandle: "",
   sameAs: [
-    "https://saksham.digital",
-    "https://github.com/saksham10arora-dotcom",
-    "https://linkedin.com/in/saksham-arora10",
-    "https://x.com/nerfsaksham",
+    "https://github.com/Vaibhav20k",
+    "https://www.linkedin.com/in/vaibhav-kandpal/",
+    "https://www.instagram.com/vaibhavv.o_o/",
   ],
 }
 
@@ -55,9 +54,9 @@ export interface SitePublication {
 }
 
 export const sitePublication: SitePublication = {
-  name: "Chimera",
+  name: "Data Science & AI",
   description:
-    "Chimera is the personal blog of Saksham Arora -- essays and notes on systems, quant, and AI.",
+    "Engineering publication, project breakdowns, and technical notes on Data Science, Machine Learning, and AI by Vaibhav Kandpal.",
 }
 
 /** Origin + base path of the deployed site, with no trailing slash. */
