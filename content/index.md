@@ -26,7 +26,7 @@ tags: [About, Data Science, Machine Learning, Deep Learning, AI]
   </g>
 </svg>
 
-Hey. I'm **Vaibhav Kandpal**, a Computer Science undergraduate focused on **Data Science, Machine Learning, Deep Learning, and AI engineering**. I build data-driven systems that turn ideas and raw data into models, applications, and useful engineering products. You can learn more about me through my [portfolio](/).
+Hey. I'm **Vaibhav Kandpal**, a Computer Science undergraduate focused on **Data Science, Machine Learning, Deep Learning, and AI engineering**. I build data-driven systems that turn ideas and raw data into models, applications, and useful engineering products. You can learn more about me through my [portfolio](https://vaibhavos.indevs.in).
 
 Most of my work sits at the intersection of **data, machine learning, deep learning, and software engineering**. I like understanding the complete path from data collection and feature engineering to model evaluation, APIs, deployment, and the systems around an ML model.
 

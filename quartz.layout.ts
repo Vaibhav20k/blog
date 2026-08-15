@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/Vaibhav20k",
       LinkedIn: "https://www.linkedin.com/in/vaibhav-kandpal/",
-      Portfolio: "/",
+      Portfolio: "https://vaibhavos.indevs.in",
     },
   }),
 }
@@ -28,8 +28,15 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
+    Component.Flex({
+      direction: "row",
+      gap: "0.5rem",
+      components: [
+        { Component: Component.Search(), grow: true },
+        { Component: Component.Darkmode(), grow: false },
+        { Component: Component.PortfolioButton(), grow: false },
+      ],
+    }),
     // Default is "link", which navigates folder names to a generated
     // Folder: <name> listing page on click. "collapse" makes the folder row
     // purely an expand/collapse toggle, same as the tree's own chevron.
@@ -76,8 +83,15 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
+    Component.Flex({
+      direction: "row",
+      gap: "0.5rem",
+      components: [
+        { Component: Component.Search(), grow: true },
+        { Component: Component.Darkmode(), grow: false },
+        { Component: Component.PortfolioButton(), grow: false },
+      ],
+    }),
     // Default is "link", which navigates folder names to a generated
     // Folder: <name> listing page on click. "collapse" makes the folder row
     // purely an expand/collapse toggle, same as the tree's own chevron.

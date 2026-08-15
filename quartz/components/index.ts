@@ -25,6 +25,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import StatsMarquee from "./StatsMarquee"
 import AgentNote from "./AgentNote"
+import PortfolioButton from "./PortfolioButton"
 
 export {
   ArticleTitle,
@@ -54,4 +55,5 @@ export {
   ConditionalRender,
   StatsMarquee,
   AgentNote,
+  PortfolioButton,
 }
