@@ -1,11 +1,38 @@
-.DS_Store
-.gitignore
-node_modules
-public
-prof
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production / Built output
+public/
+dist/
+prof/
+
+# Environment and Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Cache and temporary files
+.quartz-cache/
 tsconfig.tsbuildinfo
-.obsidian
-.quartz-cache
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Obsidian and Editor configs
+.obsidian/
 private/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cloud / Hosting tools
 .replit
 replit.nix
