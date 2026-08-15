@@ -1,50 +1,57 @@
 ---
-title: Chimera
-description: Saksham Arora — data scientist and quant researcher. HFT matching engine at 2.7M ops/sec, IMC Prosperity 4 top 0.8% globally, and writing on systems, quant, and AI.
-tags: [About]
+title: Vaibhav Kandpal — Data Science, Machine Learning & AI
+description: Notes, projects, experiments, and engineering work across Data Science, Machine Learning, Deep Learning, and AI.
+tags: [About, Data Science, Machine Learning, Deep Learning, AI]
 ---
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 96" width="100%" font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" role="img" aria-label="Chimera ticker">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 96" width="100%" font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" role="img" aria-label="Ticker">
   <defs>
-    <clipPath id="chimera-tape"><rect x="1" y="56" width="758" height="39"/></clipPath>
-    <clipPath id="chimera-type"><rect x="0" y="14" width="0" height="30"><animate attributeName="width" from="0" to="760" begin="0.3s" dur="1.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="vaibhav-tape"><rect x="1" y="56" width="758" height="39"/></clipPath>
+    <clipPath id="vaibhav-type"><rect x="0" y="14" width="0" height="30"><animate attributeName="width" from="0" to="760" begin="0.3s" dur="1.2s" fill="freeze"/></rect></clipPath>
   </defs>
-  <rect x="0.5" y="0.5" width="759" height="95" rx="10" fill="#0b0f0d" stroke="#27e27f" stroke-opacity="0.25"/>
-  <text x="20" y="36" font-size="15" clip-path="url(#chimera-type)"><tspan fill="#27e27f">SKSM@CHIMERA:~$</tspan><tspan fill="#e8fff2"> cat /etc/motd</tspan></text>
-  <rect x="330" y="23" width="9" height="16" fill="#27e27f" opacity="0">
+  <rect x="0.5" y="0.5" width="759" height="95" rx="10" fill="#0b0f0d" stroke="#FF6B35" stroke-opacity="0.28"/>
+  <text x="20" y="36" font-size="15" clip-path="url(#vaibhav-type)">
+    <tspan fill="#FF6B35">vaibhav@portfolio:~$</tspan>
+    <tspan fill="#FFF5F0"> cat /etc/motd</tspan>
+  </text>
+  <rect x="330" y="23" width="9" height="16" fill="#FF6B35" opacity="0">
     <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.5;0.51;1" dur="1.1s" begin="1.6s" repeatCount="indefinite"/>
   </rect>
-  <line x1="0" y1="56" x2="760" y2="56" stroke="#27e27f" stroke-opacity="0.15"/>
-  <g clip-path="url(#chimera-tape)">
-    <text y="80" font-size="12" fill="#27e27f">
+  <line x1="0" y1="56" x2="760" y2="56" stroke="#FF6B35" stroke-opacity="0.18"/>
+  <g clip-path="url(#vaibhav-tape)">
+    <text y="80" font-size="12" fill="#FF8555">
       <animateTransform attributeName="transform" type="translate" from="760 0" to="-1500 0" dur="24s" repeatCount="indefinite"/>
-      HFT-ENG ▲ 2.7M ops/s p99 900ns&#160;&#160;·&#160;&#160;IMC-P4 ▲ rank 154 / 18,800+ teams&#160;&#160;·&#160;&#160;GITRADE ▲ live market in a README&#160;&#160;·&#160;&#160;LLM-BENCH ▲ percentiles not averages&#160;&#160;·&#160;&#160;QRS ▲ Black-Scholes in 731 bytes&#160;&#160;·&#160;&#160;SLEEP ▼ limit down
+      DATA SCIENCE · MACHINE LEARNING · DEEP LEARNING · AI ENGINEERING · NASA SPACE APPS TOP 5 · RAG · COMPUTER VISION · ML SYSTEMS
     </text>
   </g>
 </svg>
 
-Hey. I'm **Saksham Arora**, a data scientist and quant researcher. I build things where the interesting constraint is the data, not the framework. Most of my work starts as a weird idea ("what if a live exchange ran inside a GitHub README?") and turns into something I can measure. You can learn more about me through my [portfolio](https://saksham.digital) (psst: press `` ` `` there).
+Hey. I'm **Vaibhav Kandpal**, a Computer Science undergraduate focused on **Data Science, Machine Learning, Deep Learning, and AI engineering**. I build data-driven systems that turn ideas and raw data into models, applications, and useful engineering products. You can learn more about me through my [portfolio](/).
 
-I compete in quant trading competitions, build ML pipelines, and have a systems engineering background in low-latency C++20.
+Most of my work sits at the intersection of **data, machine learning, deep learning, and software engineering**. I like understanding the complete path from data collection and feature engineering to model evaluation, APIs, deployment, and the systems around an ML model.
 
 ## Posts
 
-- [[blog/01_why_i_rebuilt_my_hft_engine|Why I Rebuilt My HFT Matching Engine From Scratch]] #HFT #Systems #Performance
-- [[blog/the-average-latency-lie|The Average Latency Lie: What 100 LLM API Calls Taught Me]] #AI #LLM
-- [[blog/02_smart_pointers_complete_guide|Smart Pointers in C++]] #cpp #Systems
+- [[blog/dualsentry_financial_anomaly_detection|DualSentry: Real-Time Financial Anomaly Detection with Kafka & ML]] #DataScience #MachineLearning #MLSystems
+- [[blog/orbitair_nasa_space_apps_telemetry|OrbitAir: Aviation Telemetry Tracker (NASA Space Apps Global Top 5)]] #DataScience #MachineLearning #Projects
+- [[blog/repolens_github_repository_rag|RepoLens: Semantic Code Search and Repository RAG Architecture]] #AI #DeepLearning #RAG
+- [[blog/jarvis_multimodal_assistant|JARVIS: Multimodal AI Assistant for Desktop Telemetry & Automation]] #AI #DeepLearning #MLSystems
+- [[blog/database_indexing_for_ml_systems|Database Indexing Strategies for Low-Latency ML Pipelines]] #MLSystems #DataScience
+- [[blog/rag_systems_hybrid_retrieval_guide|Retrieval-Augmented Generation (RAG): Hybrid Retrieval & Embeddings Guide]] #AI #DeepLearning #RAG
 
 ## What You'll Find Here
 
-Mostly things I'm building, measuring, or trying to understand at the systems level.
+Mostly things I'm building, measuring, learning, and trying to understand across data science and machine learning.
 
-- **HFT and systems** - Teardowns of my matching engine, cache locality deep dives, lock-free data structures. #HFT #Systems #Performance
-- **Quant** - Notes from IMC Prosperity 4, market microstructure, options math, algo trading research. #Quant
-- **AI infrastructure** - Benchmarking LLM APIs the way you'd benchmark an exchange: p99 latency, tail behavior, production reality. #AI #LLM
-- **Wiki** - Reference articles on order book design, C++ memory model, cache hierarchies, concurrency primitives. #Wiki
-- **Reflections** - Occasional thoughts on building, competing, and what the numbers actually tell you.
+- **Data Science** - Exploratory data analysis, statistics, feature engineering, visualization, experimentation, and turning raw data into useful signals. #DataScience
+- **Machine Learning** - Classification, regression, anomaly detection, model selection, feature engineering, evaluation, and practical ML systems. #MachineLearning
+- **Deep Learning** - Neural networks, representation learning, embeddings, computer vision, NLP, transformers, and deep-learning experiments. #DeepLearning
+- **AI Engineering** - RAG systems, LLM applications, embeddings, vector search, AI agents, inference APIs, and model-powered products. #AI #RAG
+- **ML Systems** - Data pipelines, FastAPI, PostgreSQL, Redis, Kafka, Docker, APIs, monitoring, and the engineering required around ML models. #MLSystems
+- **Project Breakdowns** - Detailed writeups of what I build, why I built it, how the architecture works, and what I learned. #Projects
 
 ## Connect With Me
 
-[GitHub](https://github.com/saksham10arora-dotcom) · [LinkedIn](https://linkedin.com/in/saksham-arora10) · [X](https://x.com/saksham10arora) · saksham10arora@gmail.com
+[GitHub](https://github.com/Vaibhav20k) · [LinkedIn](https://www.linkedin.com/in/vaibhav-kandpal/) · [Instagram](https://www.instagram.com/vaibhavv.o_o/) · [vkpal2006@gmail.com](mailto:vkpal2006@gmail.com)
 
-<sub>market data delayed by 0ns · this blog is not financial advice</sub>
+<sub>Data, models, experiments, and engineering — documented as I build.</sub>
